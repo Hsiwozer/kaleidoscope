@@ -1,0 +1,271 @@
+body {
+    background-color: #dadfe1;
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimSun, sans-serif;
+    font-weight: 300;
+    color: #5c5c5c;
+    overflow-y: scroll;
+    letter-spacing: 1px;
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?xpq0qm');
+    src: url('../fonts/icomoon.eot?xpq0qm#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?xpq0qm') format('truetype'), url('../fonts/icomoon.woff?xpq0qm') format('woff'), url('../fonts/icomoon.svg?xpq0qm#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+.wrapper {
+    position: absolute;
+    top: 155px;
+    left: 120px;
+    width: 285px;
+    height: 300px;
+}
+
+.wrapper .author {
+    width: 100px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #c7ced1;
+}
+
+.wrapper .author a {
+    font-size: 35px;
+    font-weight: 300;
+    color: #262c2e;
+}
+
+.wrapper p {
+    font-size: 16px;
+    line-height: 1.8;
+    margin: 25px 0;
+}
+
+.wrapper nav {
+    width: 57px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px 0;
+    border-top: 1px solid #c7ced1;
+}
+
+nav span {
+    padding: 4px 0;
+}
+
+nav span a {
+    font-size: 13px;
+}
+
+nav span a:nth-child(1) {
+    color: #384144;
+}
+
+nav span a:hover {
+    color: #384144;
+}
+
+.wrapper>a {
+    color: #b3bdc1;
+    transition: all .3s;
+}
+
+.wrapper>a:hover {
+    color: #6b787d;
+}
+
+
+/* section部分 */
+
+section {
+    position: absolute;
+    top: 110px;
+    right: 110px;
+    width: 895px;
+}
+
+section>div {
+    position: relative;
+    width: 100%;
+    /* height: 1096px; */
+    margin-bottom: 110px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #fff;
+    vertical-align: middle;
+}
+
+section .section1 {
+    width: 100%;
+    height: 505px;
+    cursor: pointer;
+}
+
+.section1 .sec-icon {
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+}
+
+.section1 .sec-time {
+    position: absolute;
+    bottom: 57px;
+    left: 75px;
+    color: #ebebeb;
+}
+
+.sec1-mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 505px;
+    background-color: #111;
+    opacity: 0.7;
+    border-radius: 10px;
+    display: none;
+}
+
+.sec-title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 128px;
+    background: -webkit-linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, 0));
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #ebebeb;
+    line-height: 128px;
+    padding-left: 50px;
+}
+
+section>div img {
+    width: 100%;
+    height: 505px;
+}
+
+.section .content {
+    width: 783px;
+    margin-left: 56px;
+    padding-bottom: 56px;
+    margin-bottom: 56px;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.section .content h1 {
+    font-size: 40px;
+    font-weight: 200;
+    color: #343434;
+    margin: 56px 0;
+}
+
+.section .content p {
+    font-size: 16px;
+    letter-spacing: 2px;
+    color: #5c5d5d;
+    line-height: 1.5;
+    margin-bottom: 60px;
+}
+
+.section .content p::after {
+    content: '...';
+}
+
+.section .content span {
+    border: 1px solid #c2c2c2;
+    border-radius: 3px;
+    padding: 3px 5px;
+    margin-right: 8px;
+}
+
+.section .content span a {
+    color: #c2c2c2;
+    padding-left: 1px;
+}
+
+.sec-footer {
+    padding: 0 0 76px 56px;
+}
+
+.sec-footer .sec-icon {
+    float: left;
+}
+
+.sec-icon::before {
+    font-family: 'icomoon';
+    content: '\e924';
+    color: #ebebeb;
+    font-size: 20px;
+}
+
+.sec-footer .sec-time {
+    position: relative;
+    top: 4px;
+    left: 3px;
+    float: left;
+    font-size: 14px;
+    color: #ebebeb;
+    z-index: 1;
+}
+
+.section .sec-icon {
+    color: #d6d6d6;
+    vertical-align: middle;
+}
+
+.section .sec-time {
+    color: #c2c2c2;
+}
+
+
+/* pagitation部分 */
+
+.pagination {
+    padding-bottom: 120px;
+    color: #a5b1b6;
+    font-size: 14px;
+}
+
+.pagination .next {
+    float: right;
+}
+
+.pagination .next a {
+    font-size: 14px;
+}
+
+.pagination .next i::after {
+    font-family: 'icomoon';
+    content: '\e927';
+    vertical-align: middle;
+}
+
+.pagination .line {
+    float: right;
+    width: 1px;
+    height: 30px;
+    background-color: #c7ced1;
+    margin: 0 15px;
+}
+
+.pagination .prev {
+    float: right;
+}
+
+.pagination .prev a {
+    font-size: 14px;
+}
+
+.pagination .prev i::after {
+    font-family: 'icomoon';
+    content: '\e926';
+    vertical-align: middle;
+}
+
+.pagination a {
+    color: #384144;
+}

@@ -1,0 +1,25 @@
+/* header部分 */
+
+.textbar span a {
+    color: #b3b3c4;
+    font-size: 14px;
+    margin: 0 10px;
+}
+
+
+/* section部分 */
+
+section {
+    text-align: center;
+    background-color: #f7f7f7;
+    padding: 100px 0;
+}
+
+section img {
+    width: 1020px;
+    height: 680px;
+}
+
+section img:nth-child(2) {
+    margin: 32px 0;
+}

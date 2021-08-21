@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--[if lt IE 9]>
+      <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="./js/jquery.min.js"></script>
+    <title>万花筒（仿）</title>
+</head>
+
+<body>
+    <div class="w">
+        <div class="mask"></div>
+        <div class="search">
+            <div class="logo">
+                <h1><a href="index.html">w.</a></h1>
+            </div>
+            <div class="setting">
+                <img src="./images/setting.png" alt="">
+            </div>
+            <div class="nav">
+                <span class="SearchCurrent">百度</span>
+                <span>谷歌</span>
+                <span>必应</span>
+                <span>图片</span>
+                <span>百科</span>
+                <span>地图</span>
+                <span>学术</span>
+            </div>
+            <div class="searchBar">
+                <input type="search" placeholder="百度一下，你就知道" class="searchInp" autofocus>
+                <button class="searchBtn">搜索</button>
+            </div>
+        </div>
+        <div class="relate">
+            <i>-</i>
+            <ul class="relate-nav">
+                <li><a href="index.html">首页</a></li>
+                <li>
+                    <a href="javascript:;" class="socialist">社交</a>
+                    <ul class="relate-socialist" style="display: none;">
+                        <li>
+                            <a href="blog-page1.html">Blog</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">Weibo</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">Zhihu</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">GitHub</a>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="contact.html" class="contact">联系</a></li>
+                <li><a href="javascript:;">关于</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <div class="container">
+                <div class="tab">
+                    <span>常用</span>
+                    <span>娱乐</span>
+                    <span>学习</span>
+                    <span>生活</span>
+                    <span>技术</span>
+                    <span>设计</span>
+                    <i class="icon-gear"><img src="./images/gear.png" alt=""></i>
+                </div>
+                <div class="info">
+                    <ul>
+                        <li class="title">热门</li>
+                        <li>
+                            <a href="javascript:;">百度</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">谷歌</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">必应</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">搜狗</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">今日头条</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">煎蛋</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">数字尾巴</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li class="title">社交</li>
+                        <li>
+                            <a href="javascript:;">微博</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">贴吧</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">知乎</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">豆瓣</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">V2EX</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">简述</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">Twitter</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li class="title">资讯</li>
+                        <li>
+                            <a href="javascript:;">网易</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">腾讯</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">新浪</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">搜狐</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">凤凰网</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">人民网</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">新华网</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li class="title">购物</li>
+                        <li>
+                            <a href="javascript:;">淘宝</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">京东</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">亚马逊</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">苏宁易购</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">网易严选</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">小米商城</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">什么值得买</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li class="title">视频</li>
+                        <li>
+                            <a href="javascript:;">优酷</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">爱奇艺</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">腾讯视频</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">哔哩哔哩</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">YouTube</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">斗鱼直播</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">虎牙直播</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li class="title">工作</li>
+                        <li>
+                            <a href="javascript:;">领英</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">拉勾网</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">智联招聘</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">前程无忧</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">应届生</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">脉脉</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">酷工作</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li class="title">生活</li>
+                        <li>
+                            <a href="javascript:;">美团</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">大众点评</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">携程</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">去哪儿</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">飞猪</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">12306</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">马蜂窝</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li class="title">便捷</li>
+                        <li>
+                            <a href="javascript:;">词典翻译</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">天气预报</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">快递查询</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">在线转换</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">临时网盘</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">网页微信</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">QQ邮箱</a>
+                        </li>
+                    </ul>
+                    <div class="container gear-setting" style="display: none;">
+                        <div class="row">
+                            <div class="site-background col-md-12">
+                                <label>站点背景</label>
+                                <select name="background">
+                                    <option value="bg1" selected>山雾</option>
+                                    <option value="bg2">素白</option>
+                                    <option value="bg3">桃夭</option>
+                                    <option value="bg4">荔枝</option>
+                                    <option value="bg5">天色</option>
+                                    <option value="bg6">青川</option>
+                                    <option value="bg7">深海</option>
+                                    <option value="bg8">陆离</option>
+                                    <option value="bg9">青纯</option>
+                                    <option value="bg10">石墨</option>
+                                    <option value="bg11">月夜</option>
+                                    <option value="bg12">消炭</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="school-nav col-md-4">
+                                <label>校园导航</label>
+                                <select name="schnav">
+                                    <option value="close" selected>关闭</option>
+                                    <option value="open">启用</option>
+                                </select>
+                            </div>
+                            <div class="province col-md-4">
+                                <label>选择省份</label>
+                                <select name="background">
+                                    <option value="bj" selected>北京市</option>
+                                    <option value="sh">上海市</option>
+                                    <option value="hlj">黑龙江省</option>
+                                    <option value="jl">吉林省</option>
+                                    <option value="ln">辽宁省</option>
+                                    <option value="tj">天津市</option>
+                                    <option value="ah">安徽省</option>
+                                    <option value="js">江苏省</option>
+                                    <option value="zj">浙江省</option>
+                                    <option value="sx">山西省</option>
+                                    <option value="sx">山东省</option>
+                                    <option value="sx">重庆市</option>
+                                    <option value="sx">湖北省</option>
+                                    <option value="sx">深圳市</option>
+                                    <option value="sx">新疆维吾尔自治区</option>
+                                    <option value="sx">西藏自治区</option>
+                                    <option value="sx">青海省</option>
+                                    <option value="sx">广西壮族自治区</option>
+                                    <option value="sx">宁夏回族自治区</option>
+                                    <!-- 懒得写了 -->
+                                    <option value="other">...</option>
+                                </select>
+                            </div>
+                            <div class="school-choose col-md-4">
+                                <label>选择学校</label>
+                                <select name="schoolcho">
+                                    <option value="sc1" selected>清华大学</option>
+                                    <option value="sc2">北京大学</option>
+                                    <option value="sc3">中国人民大学</option>
+                                    <option value="sc4">北京航空航天大学</option>
+                                    <option value="sc5">北京邮电大学</option>
+                                    <option value="sc12">...</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <button class="save-btn col-md-12">保存</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="picture">
+            <div class="pic1 pic" style="display: none;">
+                <div class="maskpic mask-pic1" style="display: none;"></div>
+                <p class="pic-title">Lookao 搜索</p>
+                <p class="pic-cat">一款轻量简洁的搜索引擎</p>
+                <a href="javascript:;"><img src="./images/img1.png" alt=""></a>
+            </div>
+            <div class="pic2 pic" style="display: none;">
+                <div class="maskpic mask-pic2" style="display: none;"></div>
+                <p class="pic-title">Jsthon</p>
+                <p class="pic-cat">作者的个人博客</p>
+                <a href="javascript:;"><img src="./images/img2.png" alt=""></a>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="box">
+                <div class="text">
+                    © 2021 万花筒<br /> 一万个人眼里有一万个世界<br />
+                    <a href="javascript:;">闽ICP备15021582号</a>
+                </div>
+                <div class="social">
+                    <span class="fontIcon fontIcon1"><a href="javascript:;"></a></span>
+                    <span class="fontIcon fontIcon2"><a href="javascript:;"></a></span>
+                    <span class="fontIcon fontIcon3"><a href="javascript:;"></a></span>
+                    <span class="fontIcon fontIcon4"><a href="blog-page1.html"></a></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/common.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,476 @@
+body {
+    background-color: #ededed;
+    cursor: default;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimSun, sans-serif;
+}
+
+.w {
+    width: 1200px;
+    margin: 52px auto;
+}
+
+.mask {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 1536px;
+    height: 792px;
+    background-color: #111;
+    opacity: 0.6;
+    z-index: 998;
+    display: none;
+}
+
+
+/* 模块一 */
+
+.search {
+    position: relative;
+    height: 360px;
+    background-color: #fff;
+}
+
+.search .logo,
+.search .setting {
+    float: left;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 16px;
+}
+
+.search .logo {
+    margin: 48px 0 0 84px;
+}
+
+.search .logo a {
+    color: #111;
+    font-weight: 700;
+}
+
+.search .setting {
+    float: right;
+    margin: 60px 84px 0 0;
+}
+
+.search .setting img {
+    width: 40px;
+    height: 40px;
+    vertical-align: center;
+    cursor: pointer;
+}
+
+.search .nav {
+    position: absolute;
+    left: 276px;
+    top: 190px;
+    width: 472px;
+    height: 33px;
+    border-bottom: 1px solid #e9e9e9;
+    display: flex;
+    justify-content: space-between;
+}
+
+.search .nav span {
+    height: 33px;
+    font-size: 16px;
+    line-height: 1;
+    color: #8f8f8f;
+    padding: 0 8px;
+    margin: 0 11px;
+    cursor: pointer;
+    transition: color 0.5s ease-in;
+}
+
+.search .nav span:hover {
+    color: #444 !important;
+    border-bottom: 2px solid #8f8f8f;
+}
+
+.SearchCurrent {
+    color: #444 !important;
+    border-bottom: 2px solid #8f8f8f;
+}
+
+.search .nav span:first-child {
+    margin-left: 0;
+}
+
+.search .nav span:last-child {
+    margin-right: 0;
+    padding-right: -3px;
+}
+
+.search .searchBar {
+    position: absolute;
+    left: 276px;
+    top: 245px;
+    width: 472px;
+    height: 45px;
+    background-color: #f5f5f5;
+}
+
+.search .searchBar input {
+    width: 435px;
+    height: 45px;
+    background-color: #f5f5f5;
+    font-size: 17px;
+    color: #8f8f8f;
+    margin-left: 20px;
+}
+
+.search .searchBar .searchBtn {
+    position: absolute;
+    right: -175px;
+    width: 128px;
+    height: 45px;
+    background-color: #444;
+    font-size: 16px;
+    color: #fff;
+}
+
+
+/* 模块二 */
+
+.relate {
+    position: fixed;
+    top: 0;
+    left: 100%;
+    width: 35%;
+    height: 100%;
+    background-color: #fff;
+    z-index: 999;
+}
+
+.relate>i {
+    position: absolute;
+    top: 60px;
+    left: 75px;
+    font-size: 40px;
+    color: #000;
+    cursor: pointer;
+}
+
+.relate .relate-nav {
+    position: absolute;
+    top: 125px;
+    right: 80px;
+    width: 100px;
+}
+
+.relate .relate-nav>li {
+    margin-bottom: 40px;
+}
+
+.relate .relate-nav li>a {
+    font-size: 25px;
+    color: #444;
+}
+
+.relate .relate-nav .relate-socialist li {
+    display: block;
+    width: 50px;
+    margin-top: 5px;
+}
+
+.relate .relate-nav .relate-socialist li a {
+    display: block;
+    width: 100%;
+    font-size: 14px;
+    text-align: right;
+    color: #777;
+    text-align: right;
+}
+
+
+/* 模块三 */
+
+.content {
+    position: relative;
+    width: 100%;
+    height: 544px;
+    background-color: #f7f7f7;
+}
+
+.content .container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 972px;
+    height: 468px;
+    transform: translate(-50%, -50%);
+}
+
+.content .container .tab {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    display: flex;
+    height: 10%;
+    width: 80%;
+    text-align: center;
+    justify-content: space-between;
+    transform: translate(-50%, -50%);
+}
+
+.content .container .tab span,
+.content .container .tab .icon-gear {
+    width: 75px;
+    height: 35px;
+    font-size: 16px;
+    color: #555;
+    padding: 4px 20px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.content .container .tab span:first-child {
+    background-color: #e5e5e5;
+}
+
+.content .container .tab span:hover {
+    background-color: #e5e5e5 !important;
+}
+
+.content .container .tab .icon-gear img {
+    width: 20px;
+}
+
+.content .container .info {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 90%;
+}
+
+.content .container .info ul {
+    margin: 11px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.content .container .info ul li {
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 16px;
+}
+
+.content .container .info ul li a {
+    font-size: 15px;
+    font-weight: 400;
+    color: #555;
+    padding: 5px 7px;
+    transition: all 0.5s;
+}
+
+.content .container .info ul li a:hover {
+    background-color: #e5e5e5 !important;
+}
+
+.content .container .info ul .title {
+    color: #999;
+    cursor: text;
+}
+
+.content .container .info ul .title:hover {
+    background-color: #f7f7f7 !important;
+}
+
+.info .gear-setting {
+    margin-top: 60px;
+}
+
+.info .gear-setting label {
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.info .gear-setting .row {
+    margin-bottom: 36px;
+}
+
+.info .gear-setting .row>div {
+    display: flex;
+    flex-direction: column;
+}
+
+.info .gear-setting select {
+    width: 285px;
+    height: 45px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    padding-left: 15px;
+    font-size: 16px;
+}
+
+.info .gear-setting .save-btn {
+    width: 112px;
+    height: 46px;
+    background-color: #444;
+    color: #fff;
+    font-size: 16px;
+    margin-left: 16px;
+}
+
+
+/* 模块四 */
+
+.picture {
+    display: flex;
+    justify-content: center;
+    width: 1200px;
+    height: 320px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.picture .pic {
+    position: relative;
+}
+
+.picture .pic1 {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.picture .maskpic {
+    position: absolute;
+    top: 0;
+    height: 320px;
+    background-color: #111;
+    opacity: 0.8;
+    z-index: 999;
+}
+
+.picture .mask-pic1 {
+    left: 0;
+    width: 800px;
+}
+
+.picture .pic2 {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.picture .mask-pic2 {
+    right: 0;
+    width: 400px;
+}
+
+.picture img {
+    width: 100%;
+}
+
+.picture p {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    display: none;
+    z-index: 9999;
+}
+
+.picture .pic-title {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.picture .pic-cat {
+    margin-top: 25px;
+}
+
+
+/* 模块五 */
+
+.footer {
+    position: relative;
+    width: 100%;
+    height: 336px;
+    background-color: #fff;
+}
+
+.footer .box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 135px;
+    transform: translate(-50%, -50%);
+}
+
+.footer .text {
+    width: 80%;
+    height: 70%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 14px;
+    line-height: 26px;
+    padding-top: 6px;
+    color: #666;
+}
+
+.footer .text a {
+    color: #666;
+}
+
+.footer .box .social {
+    width: 15%;
+    height: 15%;
+    margin: 20px auto 0;
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?xpq0qm');
+    src: url('../fonts/icomoon.eot?xpq0qm#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?xpq0qm') format('truetype'), url('../fonts/icomoon.woff?xpq0qm') format('woff'), url('../fonts/icomoon.svg?xpq0qm#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+.social .fontIcon1 a::before {
+    font-family: 'icomoon';
+    content: "\ea9a";
+}
+
+.social .fontIcon2 a::before {
+    font-family: 'icomoon';
+    content: "\e900";
+}
+
+.social .fontIcon3 a::before {
+    font-family: 'icomoon';
+    content: "\eab0";
+}
+
+.social .fontIcon4 a::before {
+    font-family: 'icomoon';
+    content: "\e901";
+}
+
+.social .fontIcon a {
+    font-size: 15px;
+    color: #666;
+    margin-right: 36px;
+}
+
+.social .fontIcon:last-child a {
+    margin-right: 0;
+}
+
+.social .fontIcon a:hover {
+    color: #2d2d2d;
+}

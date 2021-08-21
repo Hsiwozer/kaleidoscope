@@ -1,0 +1,135 @@
+body {
+    height: 960px;
+    background-color: #dadfe1;
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimSun, sans-serif;
+    font-weight: 300;
+    color: #5c5c5c;
+    overflow-y: scroll;
+    letter-spacing: 1px;
+}
+
+.wrapper {
+    position: absolute;
+    top: 155px;
+    left: 120px;
+    width: 285px;
+    height: 300px;
+}
+
+.wrapper .author {
+    width: 100px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #c7ced1;
+}
+
+.wrapper .author a {
+    font-size: 35px;
+    font-weight: 300;
+    color: #262c2e;
+}
+
+.wrapper p {
+    font-size: 16px;
+    line-height: 1.8;
+    margin: 25px 0;
+}
+
+.wrapper nav {
+    width: 57px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px 0;
+    border-top: 1px solid #c7ced1;
+}
+
+nav span {
+    padding: 4px 0;
+}
+
+nav span a {
+    font-size: 13px;
+}
+
+nav span a:nth-child(1) {
+    color: #384144;
+}
+
+nav span a:hover {
+    color: #384144;
+}
+
+.wrapper>a {
+    color: #b3bdc1;
+    transition: all .3s;
+}
+
+.wrapper>a:hover {
+    color: #6b787d;
+}
+
+
+/* article模块 */
+
+article {
+    position: absolute;
+    top: 110px;
+    right: 110px;
+    width: 895px;
+    /* height: 1636px; */
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 108px 0 60px 56px;
+}
+
+article h1 {
+    font-family: "宋体";
+    font-size: 38px;
+    font-weight: 300;
+    color: #343434;
+    margin-bottom: 50px;
+}
+
+article h5 {
+    font-family: "宋体";
+    font-size: 25px;
+    font-weight: 300;
+    color: #343434;
+}
+
+article p {
+    font-size: 17px;
+    color: #5c5d5d;
+    margin: 25px 0;
+}
+
+article ul {
+    margin: 25px 0 25px 20px;
+}
+
+article ul li {
+    font-size: 17px;
+    color: #5c5d5d;
+    list-style: disc;
+    margin-bottom: 5px;
+}
+
+article ul li:last-child {
+    margin-bottom: 0;
+}
+
+.license {
+    width: 760px;
+    border-top: 1px solid #ebebeb;
+    padding-top: 28px;
+}
+
+.license span:nth-child(1) img {
+    width: 64px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.license span:nth-child(2) img {
+    width: 156px;
+    height: 20px;
+}
