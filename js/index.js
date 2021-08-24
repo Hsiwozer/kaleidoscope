@@ -98,11 +98,10 @@
     var searchTop = $('.searchBar').offset().top;
     $(window).on('scroll', function() {
         if ($(document).scrollTop() >= searchTop) {
-            $('.pic').stop().slideDown();
+            $('.pic').slideDown();
         }
     });
     $('.pic').on('mouseenter mouseleave', function() {
-        $(this).children('p').stop().fadeToggle();
-        $(this).children('.maskpic').stop().fadeToggle();
-    })
+        $(this).children().stop().fadeToggle();
+    });
 })();

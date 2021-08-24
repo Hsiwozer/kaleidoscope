@@ -62,3 +62,15 @@ body {
 .clearfix {
     *zoom: 1
 }
+
+@media screen and (max-width: 1200px) {
+    html {
+        font-size: 60px!important;
+    }
+}
+
+@media screen and (max-width: 1920px) {
+    html {
+        font-size: 80px!important;
+    }
+}

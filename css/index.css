@@ -1,20 +1,22 @@
 body {
+    min-width: 1000px;
     background-color: #ededed;
     cursor: default;
+    white-space: nowrap;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimSun, sans-serif;
 }
 
 .w {
-    width: 1200px;
-    margin: 52px auto;
+    width: 15rem;
+    margin: .65rem auto;
 }
 
 .mask {
     position: fixed;
     top: 0;
     left: 0;
-    width: 1536px;
-    height: 792px;
+    width: 24rem;
+    height: 13.5rem;
     background-color: #111;
     opacity: 0.6;
     z-index: 998;
@@ -26,22 +28,22 @@ body {
 
 .search {
     position: relative;
-    height: 360px;
+    height: 4.5rem;
     background-color: #fff;
 }
 
 .search .logo,
 .search .setting {
     float: left;
-    width: 50px;
-    height: 50px;
+    width: .625rem;
+    height: .625rem;
     text-align: center;
-    line-height: 50px;
-    font-size: 16px;
+    line-height: .625rem;
+    font-size: .2rem;
 }
 
 .search .logo {
-    margin: 48px 0 0 84px;
+    margin: .6rem 0 0 1.05rem;
 }
 
 .search .logo a {
@@ -51,46 +53,45 @@ body {
 
 .search .setting {
     float: right;
-    margin: 60px 84px 0 0;
+    margin: .75rem 1.05rem 0 0;
 }
 
 .search .setting img {
-    width: 40px;
-    height: 40px;
+    width: .5rem;
+    height: .5rem;
     vertical-align: center;
     cursor: pointer;
 }
 
 .search .nav {
     position: absolute;
-    left: 276px;
-    top: 190px;
-    width: 472px;
-    height: 33px;
+    left: 3.45rem;
+    top: 2.375rem;
+    height: .4125rem;
     border-bottom: 1px solid #e9e9e9;
     display: flex;
     justify-content: space-between;
 }
 
 .search .nav span {
-    height: 33px;
-    font-size: 16px;
+    height: .4125rem;
+    font-size: .2rem;
     line-height: 1;
     color: #8f8f8f;
-    padding: 0 8px;
-    margin: 0 11px;
+    padding: 0 .1rem;
+    margin: 0 .1375rem;
     cursor: pointer;
     transition: color 0.5s ease-in;
 }
 
 .search .nav span:hover {
     color: #444 !important;
-    border-bottom: 2px solid #8f8f8f;
+    border-bottom: .025rem solid #8f8f8f;
 }
 
 .SearchCurrent {
     color: #444 !important;
-    border-bottom: 2px solid #8f8f8f;
+    border-bottom: .025rem solid #8f8f8f;
 }
 
 .search .nav span:first-child {
@@ -99,34 +100,34 @@ body {
 
 .search .nav span:last-child {
     margin-right: 0;
-    padding-right: -3px;
+    padding-right: -0.0375rem;
 }
 
 .search .searchBar {
     position: absolute;
-    left: 276px;
-    top: 245px;
-    width: 472px;
-    height: 45px;
+    left: 3.45rem;
+    top: 3.0625rem;
+    width: 5.9rem;
+    height: .5625rem;
     background-color: #f5f5f5;
 }
 
 .search .searchBar input {
-    width: 435px;
-    height: 45px;
+    width: 5.4375rem;
+    height: .5625rem;
     background-color: #f5f5f5;
-    font-size: 17px;
+    font-size: .2125rem;
     color: #8f8f8f;
-    margin-left: 20px;
+    margin-left: .25rem;
 }
 
 .search .searchBar .searchBtn {
     position: absolute;
-    right: -175px;
-    width: 128px;
-    height: 45px;
+    right: -2.1875rem;
+    width: 1.6rem;
+    height: .5625rem;
     background-color: #444;
-    font-size: 16px;
+    font-size: .2rem;
     color: #fff;
 }
 
@@ -136,7 +137,7 @@ body {
 .relate {
     position: fixed;
     top: 0;
-    left: 100%;
+    right: -8.4rem;
     width: 35%;
     height: 100%;
     background-color: #fff;
@@ -145,39 +146,39 @@ body {
 
 .relate>i {
     position: absolute;
-    top: 60px;
-    left: 75px;
-    font-size: 40px;
+    top: .75rem;
+    left: .9375rem;
+    font-size: .5rem;
     color: #000;
     cursor: pointer;
 }
 
 .relate .relate-nav {
     position: absolute;
-    top: 125px;
-    right: 80px;
-    width: 100px;
+    top: 1.5625rem;
+    right: 1rem;
+    width: 1.25rem;
 }
 
 .relate .relate-nav>li {
-    margin-bottom: 40px;
+    margin-bottom: .5rem;
 }
 
 .relate .relate-nav li>a {
-    font-size: 25px;
+    font-size: .3125rem;
     color: #444;
 }
 
 .relate .relate-nav .relate-socialist li {
     display: block;
-    width: 50px;
-    margin-top: 5px;
+    width: .625rem;
+    margin-top: .0625rem;
 }
 
 .relate .relate-nav .relate-socialist li a {
     display: block;
     width: 100%;
-    font-size: 14px;
+    font-size: .175rem;
     text-align: right;
     color: #777;
     text-align: right;
@@ -189,7 +190,7 @@ body {
 .content {
     position: relative;
     width: 100%;
-    height: 544px;
+    height: 6.8rem;
     background-color: #f7f7f7;
 }
 
@@ -197,8 +198,8 @@ body {
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 972px;
-    height: 468px;
+    width: 12.15rem;
+    height: 5.85rem;
     transform: translate(-50%, -50%);
 }
 
@@ -216,11 +217,11 @@ body {
 
 .content .container .tab span,
 .content .container .tab .icon-gear {
-    width: 75px;
-    height: 35px;
-    font-size: 16px;
+    width: .9375rem;
+    height: .4375rem;
+    font-size: .2rem;
     color: #555;
-    padding: 4px 20px;
+    padding: .05rem .25rem;
     cursor: pointer;
     transition: all 0.5s;
 }
@@ -234,7 +235,7 @@ body {
 }
 
 .content .container .tab .icon-gear img {
-    width: 20px;
+    width: .25rem;
 }
 
 .content .container .info {
@@ -245,24 +246,24 @@ body {
 }
 
 .content .container .info ul {
-    margin: 11px 0;
+    margin: .1375rem 0;
     display: flex;
     justify-content: space-around;
 }
 
 .content .container .info ul li {
-    width: 120px;
-    height: 40px;
+    width: 1.5rem;
+    height: .5rem;
     text-align: center;
-    line-height: 40px;
-    font-size: 16px;
+    line-height: .5rem;
+    font-size: .2rem;
 }
 
 .content .container .info ul li a {
-    font-size: 15px;
+    font-size: .1875rem;
     font-weight: 400;
     color: #555;
-    padding: 5px 7px;
+    padding: .0625rem .0875rem;
     transition: all 0.5s;
 }
 
@@ -280,16 +281,16 @@ body {
 }
 
 .info .gear-setting {
-    margin-top: 60px;
+    margin-top: .75rem;
 }
 
 .info .gear-setting label {
     color: #666;
-    margin-bottom: 15px;
+    margin-bottom: .1875rem;
 }
 
 .info .gear-setting .row {
-    margin-bottom: 36px;
+    margin-bottom: .45rem;
 }
 
 .info .gear-setting .row>div {
@@ -298,98 +299,95 @@ body {
 }
 
 .info .gear-setting select {
-    width: 285px;
-    height: 45px;
+    width: 3.5625rem;
+    height: .5625rem;
     background-color: #fff;
     border: none;
     outline: none;
     appearance: none;
     -moz-appearance: none;
     -webkit-appearance: none;
-    padding-left: 15px;
-    font-size: 16px;
+    padding-left: .1875rem;
+    font-size: .2rem;
 }
 
 .info .gear-setting .save-btn {
-    width: 112px;
-    height: 46px;
+    width: 1.4rem;
+    height: .575rem;
     background-color: #444;
     color: #fff;
-    font-size: 16px;
-    margin-left: 16px;
+    font-size: .2rem;
+    margin-left: .2rem;
 }
 
 
 /* 模块四 */
 
 .picture {
-    display: flex;
-    justify-content: center;
-    width: 1200px;
-    height: 320px;
-    overflow: hidden;
+    position: relative;
+    width: 15rem;
+    height: 4rem;
     cursor: pointer;
 }
 
 .picture .pic {
-    position: relative;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .picture .pic1 {
-    flex: 2;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 10rem;
+    height: 100%;
+    background: url(../images/img1.png) no-repeat;
+    background-size: 10rem auto;
 }
 
 .picture .maskpic {
     position: absolute;
     top: 0;
-    height: 320px;
+    height: 4rem;
     background-color: #111;
     opacity: 0.8;
     z-index: 999;
+    display: none;
 }
 
 .picture .mask-pic1 {
     left: 0;
-    width: 800px;
+    width: 10rem;
 }
 
 .picture .pic2 {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 5rem;
+    height: 100%;
+    background: url(../images/img2.png) no-repeat;
+    background-size: 5rem auto;
 }
 
 .picture .mask-pic2 {
     right: 0;
-    width: 400px;
-}
-
-.picture img {
-    width: 100%;
+    width: 5rem;
 }
 
 .picture p {
-    position: absolute;
-    top: 50%;
-    width: 100%;
-    text-align: center;
+    position: relative;
     color: #fff;
-    display: none;
     z-index: 9999;
+    margin: 0;
+    display: none;
 }
 
 .picture .pic-title {
-    font-size: 16px;
+    font-size: .2rem;
     font-weight: 700;
-    margin-bottom: 25px;
+    margin-bottom: .125rem;
 }
 
 .picture .pic-cat {
-    margin-top: 25px;
+    margin-top: .125rem;
 }
 
 
@@ -398,7 +396,7 @@ body {
 .footer {
     position: relative;
     width: 100%;
-    height: 336px;
+    height: 4.2rem;
     background-color: #fff;
 }
 
@@ -407,7 +405,7 @@ body {
     top: 50%;
     left: 50%;
     width: 100%;
-    height: 135px;
+    height: 1.6875rem;
     transform: translate(-50%, -50%);
 }
 
@@ -416,9 +414,9 @@ body {
     height: 70%;
     margin: 0 auto;
     text-align: center;
-    font-size: 14px;
-    line-height: 26px;
-    padding-top: 6px;
+    font-size: .175rem;
+    line-height: .325rem;
+    padding-top: .075rem;
     color: #666;
 }
 
@@ -427,50 +425,18 @@ body {
 }
 
 .footer .box .social {
+    display: flex;
+    justify-content: space-between;
     width: 15%;
     height: 15%;
-    margin: 20px auto 0;
+    margin: .25rem auto 0;
 }
 
-@font-face {
-    font-family: 'icomoon';
-    src: url('../fonts/icomoon.eot?xpq0qm');
-    src: url('../fonts/icomoon.eot?xpq0qm#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?xpq0qm') format('truetype'), url('../fonts/icomoon.woff?xpq0qm') format('woff'), url('../fonts/icomoon.svg?xpq0qm#icomoon') format('svg');
-    font-weight: normal;
-    font-style: normal;
-    font-display: block;
-}
-
-.social .fontIcon1 a::before {
-    font-family: 'icomoon';
-    content: "\ea9a";
-}
-
-.social .fontIcon2 a::before {
-    font-family: 'icomoon';
-    content: "\e900";
-}
-
-.social .fontIcon3 a::before {
-    font-family: 'icomoon';
-    content: "\eab0";
-}
-
-.social .fontIcon4 a::before {
-    font-family: 'icomoon';
-    content: "\e901";
-}
-
-.social .fontIcon a {
-    font-size: 15px;
+.social a::before {
+    font-size: .1875rem;
     color: #666;
-    margin-right: 36px;
 }
 
-.social .fontIcon:last-child a {
-    margin-right: 0;
-}
-
-.social .fontIcon a:hover {
+.social a:hover {
     color: #2d2d2d;
 }

@@ -5,8 +5,8 @@ body {
 }
 
 .w {
-    width: 1200px;
-    margin: 52px auto;
+    width: 15rem;
+    margin: .65rem auto;
 }
 
 @keyframes rotate {
@@ -22,8 +22,8 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    width: 1536px;
-    height: 792px;
+    width: 24rem;
+    height: 13.5rem;
     background-color: #111;
     opacity: 0.6;
     z-index: 998;
@@ -32,13 +32,13 @@ body {
 
 .loading {
     position: absolute;
-    bottom: 60px;
-    left: 735px;
+    bottom: .75rem;
+    left: calc(50% - .3125rem);
     display: block;
-    width: 50px;
-    height: 50px;
+    width: .625rem;
+    height: .625rem;
     text-align: center;
-    line-height: 50px;
+    line-height: .625rem;
     transform-origin: center center;
     animation-name: rotate;
     animation-duration: 1s;
@@ -49,7 +49,7 @@ body {
     content: '\f01e';
     font-family: 'icomoon';
     color: #fff;
-    font-size: 25px;
+    font-size: .3125rem;
 }
 
 
@@ -57,31 +57,31 @@ body {
 
 header {
     background-color: #fff;
-    height: 700px;
+    height: 8.75rem;
 }
 
 .headerbar {
     position: relative;
     width: 100%;
-    height: 150px;
+    height: 1.875rem;
 }
 
 .headerbar .logo {
     position: absolute;
-    top: 50px;
-    left: 90px;
+    top: .625rem;
+    left: 1.125rem;
 }
 
 .headerbar .logo a {
     color: #111;
     font-weight: 700;
-    font-size: 35px;
+    font-size: .4375rem;
 }
 
 .headerbar .setting {
     position: absolute;
-    top: 60px;
-    right: 90px;
+    top: .75rem;
+    right: 1.125rem;
 }
 
 .headerbar .setting img {
@@ -92,20 +92,20 @@ header {
 .textbar {
     text-align: center;
     width: 100%;
-    margin-top: 125px;
+    margin-top: 1.5625rem;
 }
 
 .textbar h1 {
     color: #444;
     font-weight: 400;
-    font-size: 30px;
-    margin-bottom: 45px;
+    font-size: .375rem;
+    margin-bottom: .5625rem;
 }
 
 .textbar p {
     color: #666;
-    font-size: 16px;
-    margin-bottom: 45px;
+    font-size: .2rem;
+    margin-bottom: .5625rem;
 }
 
 
@@ -114,7 +114,7 @@ header {
 .relate {
     position: fixed;
     top: 0;
-    left: 100%;
+    right: -8.4rem;
     width: 35%;
     height: 100%;
     background-color: #fff;
@@ -123,39 +123,39 @@ header {
 
 .relate>i {
     position: absolute;
-    top: 60px;
-    left: 75px;
-    font-size: 40px;
+    top: .75rem;
+    left: .9375rem;
+    font-size: .5rem;
     color: #000;
     cursor: pointer;
 }
 
 .relate .relate-nav {
     position: absolute;
-    top: 125px;
-    right: 80px;
-    width: 100px;
+    top: 1.5625rem;
+    right: 1rem;
+    width: 1.25rem;
 }
 
 .relate .relate-nav>li {
-    margin-bottom: 40px;
+    margin-bottom: .5rem;
 }
 
 .relate .relate-nav li>a {
-    font-size: 25px;
+    font-size: .3125rem;
     color: #444;
 }
 
 .relate .relate-nav .relate-socialist li {
     display: block;
-    width: 50px;
-    margin-top: 5px;
+    width: .625rem;
+    margin-top: .0625rem;
 }
 
 .relate .relate-nav .relate-socialist li a {
     display: block;
     width: 100%;
-    font-size: 14px;
+    font-size: .175rem;
     text-align: right;
     color: #777;
     text-align: right;
@@ -164,19 +164,10 @@ header {
 
 /* footer部分 */
 
-@font-face {
-    font-family: 'icomoon';
-    src: url('../fonts/icomoon.eot?xpq0qm');
-    src: url('../fonts/icomoon.eot?xpq0qm#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?xpq0qm') format('truetype'), url('../fonts/icomoon.woff?xpq0qm') format('woff'), url('../fonts/icomoon.svg?xpq0qm#icomoon') format('svg');
-    font-weight: normal;
-    font-style: normal;
-    font-display: block;
-}
-
 footer {
     position: relative;
     width: 100%;
-    height: 336px;
+    height: 4.2rem;
     background-color: #fff;
 }
 
@@ -185,7 +176,7 @@ footer .box {
     top: 50%;
     left: 50%;
     width: 100%;
-    height: 135px;
+    height: 1.6875rem;
     transform: translate(-50%, -50%);
 }
 
@@ -194,53 +185,29 @@ footer .text {
     height: 70%;
     margin: 0 auto;
     text-align: center;
-    font-size: 14px;
-    line-height: 26px;
-    padding-top: 6px;
+    font-size: .175rem;
+    line-height: .325rem;
+    padding-top: .075rem;
     color: #666;
 }
 
 footer .text a {
     color: #666;
-    text-decoration: none;
 }
 
 footer .box .social {
+    display: flex;
+    justify-content: space-between;
     width: 15%;
     height: 15%;
-    margin: 20px auto 0;
+    margin: .25rem auto 0;
 }
 
-.social .fontIcon1 a::before {
-    font-family: 'icomoon';
-    content: "\ea9a";
-}
-
-.social .fontIcon2 a::before {
-    font-family: 'icomoon';
-    content: "\e900";
-}
-
-.social .fontIcon3 a::before {
-    font-family: 'icomoon';
-    content: "\eab0";
-}
-
-.social .fontIcon4 a::before {
-    font-family: 'icomoon';
-    content: "\e901";
-}
-
-.social .fontIcon a {
-    font-size: 15px;
+.social a::before {
+    font-size: .1875rem;
     color: #666;
-    margin-right: 36px;
 }
 
-.social .fontIcon:last-child a {
-    margin-right: 0;
-}
-
-.social .fontIcon a:hover {
+.social a:hover {
     color: #2d2d2d;
 }

@@ -18,44 +18,44 @@ body {
 
 .wrapper {
     position: absolute;
-    top: 155px;
-    left: 120px;
-    width: 285px;
-    height: 300px;
+    top: 1.9375rem;
+    left: 1.5rem;
+    width: 3.5625rem;
+    height: 3.75rem;
 }
 
 .wrapper .author {
-    width: 100px;
-    padding-bottom: 20px;
+    width: 1.25rem;
+    padding-bottom: .25rem;
     border-bottom: 1px solid #c7ced1;
 }
 
 .wrapper .author a {
-    font-size: 35px;
+    font-size: .4375rem;
     font-weight: 300;
     color: #262c2e;
 }
 
 .wrapper p {
-    font-size: 16px;
+    font-size: .2rem;
     line-height: 1.8;
-    margin: 25px 0;
+    margin: .3125rem 0;
 }
 
 .wrapper nav {
-    width: 57px;
+    width: .7125rem;
     display: flex;
     flex-direction: column;
-    padding: 25px 0;
+    padding: .3125rem 0;
     border-top: 1px solid #c7ced1;
 }
 
 nav span {
-    padding: 4px 0;
+    padding: .05rem 0;
 }
 
 nav span a {
-    font-size: 13px;
+    font-size: .1625rem;
 }
 
 nav span a:nth-child(1) {
@@ -80,17 +80,17 @@ nav span a:hover {
 
 section {
     position: absolute;
-    top: 110px;
-    right: 110px;
-    width: 895px;
+    top: 1.375rem;
+    right: 1.375rem;
+    width: 11.1875rem;
 }
 
 section>div {
     position: relative;
     width: 100%;
     /* height: 1096px; */
-    margin-bottom: 110px;
-    border-radius: 10px;
+    margin-bottom: 1.375rem;
+    border-radius: .125rem;
     overflow: hidden;
     background-color: #fff;
     vertical-align: middle;
@@ -98,20 +98,20 @@ section>div {
 
 section .section1 {
     width: 100%;
-    height: 505px;
+    height: 6.3125rem;
     cursor: pointer;
 }
 
-.section1 .sec-icon {
+.section1 .icon-pacman {
     position: absolute;
-    bottom: 50px;
-    left: 50px;
+    bottom: .6875rem;
+    left: .625rem;
 }
 
 .section1 .sec-time {
     position: absolute;
-    bottom: 57px;
-    left: 75px;
+    bottom: .7125rem;
+    left: .9375rem;
     color: #ebebeb;
 }
 
@@ -120,10 +120,10 @@ section .section1 {
     top: 0;
     left: 0;
     width: 100%;
-    height: 505px;
+    height: 6.3125rem;
     background-color: #111;
     opacity: 0.7;
-    border-radius: 10px;
+    border-radius: .125rem;
     display: none;
 }
 
@@ -132,43 +132,43 @@ section .section1 {
     top: 0;
     left: 0;
     width: 100%;
-    height: 128px;
+    height: 1.6rem;
     background: -webkit-linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, 0));
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    font-size: 14px;
+    border-top-left-radius: .125rem;
+    border-top-right-radius: .125rem;
+    font-size: .175rem;
     letter-spacing: 1px;
     color: #ebebeb;
-    line-height: 128px;
-    padding-left: 50px;
+    line-height: 1.6rem;
+    padding-left: .625rem;
 }
 
 section>div img {
     width: 100%;
-    height: 505px;
+    height: 6.3125rem;
 }
 
 .section .content {
-    width: 783px;
-    margin-left: 56px;
-    padding-bottom: 56px;
-    margin-bottom: 56px;
+    width: 9.7875rem;
+    margin-left: .7rem;
+    padding-bottom: .7rem;
+    margin-bottom: .7rem;
     border-bottom: 1px solid #ebebeb;
 }
 
 .section .content h1 {
-    font-size: 40px;
+    font-size: .5rem;
     font-weight: 200;
     color: #343434;
-    margin: 56px 0;
+    margin: .7rem 0;
 }
 
 .section .content p {
-    font-size: 16px;
-    letter-spacing: 2px;
+    font-size: .2rem;
+    letter-spacing: .025rem;
     color: #5c5d5d;
     line-height: 1.5;
-    margin-bottom: 60px;
+    margin-bottom: .75rem;
 }
 
 .section .content p::after {
@@ -177,9 +177,9 @@ section>div img {
 
 .section .content span {
     border: 1px solid #c2c2c2;
-    border-radius: 3px;
-    padding: 3px 5px;
-    margin-right: 8px;
+    border-radius: .0375rem;
+    padding: .0375rem .0625rem;
+    margin-right: .1rem;
 }
 
 .section .content span a {
@@ -188,33 +188,30 @@ section>div img {
 }
 
 .sec-footer {
-    padding: 0 0 76px 56px;
+    padding: 0 0 .95rem .7rem;
 }
 
-.sec-footer .sec-icon {
+.sec-footer .icon-pacman {
     float: left;
 }
 
-.sec-icon::before {
-    font-family: 'icomoon';
-    content: '\e924';
+.icon-pacman::before {
     color: #ebebeb;
-    font-size: 20px;
+    font-size: .25rem;
 }
 
 .sec-footer .sec-time {
     position: relative;
-    top: 4px;
-    left: 3px;
+    top: 0;
+    left: .0375rem;
     float: left;
-    font-size: 14px;
+    font-size: .175rem;
     color: #ebebeb;
     z-index: 1;
 }
 
-.section .sec-icon {
+.section .icon-pacman {
     color: #d6d6d6;
-    vertical-align: middle;
 }
 
 .section .sec-time {
@@ -225,9 +222,9 @@ section>div img {
 /* pagitation部分 */
 
 .pagination {
-    padding-bottom: 120px;
+    padding-bottom: 1.5rem;
     color: #a5b1b6;
-    font-size: 14px;
+    font-size: .175rem;
 }
 
 .pagination .next {
@@ -235,21 +232,15 @@ section>div img {
 }
 
 .pagination .next a {
-    font-size: 14px;
-}
-
-.pagination .next i::after {
-    font-family: 'icomoon';
-    content: '\e927';
-    vertical-align: middle;
+    font-size: .175rem;
 }
 
 .pagination .line {
     float: right;
     width: 1px;
-    height: 30px;
+    height: .375rem;
     background-color: #c7ced1;
-    margin: 0 15px;
+    margin: 0 .1875rem;
 }
 
 .pagination .prev {
@@ -257,13 +248,7 @@ section>div img {
 }
 
 .pagination .prev a {
-    font-size: 14px;
-}
-
-.pagination .prev i::after {
-    font-family: 'icomoon';
-    content: '\e926';
-    vertical-align: middle;
+    font-size: .175rem;
 }
 
 .pagination a {

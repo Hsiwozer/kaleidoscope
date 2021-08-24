@@ -12,7 +12,7 @@
 
     function appear() {
         $('.relate').animate({
-            left: 990
+            right: 0
         }, 350, function() {
             $(this).children('i').html('×');
         });
@@ -22,7 +22,7 @@
 
     function disappear() {
         $('.relate').animate({
-            left: 1550
+            right: -672
         }, 350, function() {
             $(this).children('i').html('-')
         });

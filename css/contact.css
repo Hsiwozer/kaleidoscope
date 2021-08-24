@@ -2,8 +2,8 @@
 
 .textbar span a {
     color: #b3b3c4;
-    font-size: 14px;
-    margin: 0 10px;
+    font-size: .175rem;
+    margin: 0 .125rem;
 }
 
 
@@ -12,14 +12,14 @@
 section {
     text-align: center;
     background-color: #f7f7f7;
-    padding: 100px 0;
+    padding: 1.25rem 0;
 }
 
 section img {
-    width: 1020px;
-    height: 680px;
+    width: 12.75rem;
+    height: 8.5rem;
 }
 
 section img:nth-child(2) {
-    margin: 32px 0;
+    margin: .4rem 0;
 }
